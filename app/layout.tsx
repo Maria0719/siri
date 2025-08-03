@@ -5,8 +5,8 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'SIRIA',
-  description: 'Created with v0',
-  generator: 'v0.dev',
+  description: 'Creado para mejorar',
+  generator: 'SIRIA',
 }
 
 export default function RootLayout({
