@@ -17,6 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <title>SIRIA - Sistema Inteligente de Recuperación</title>
         <style>{`
 html {
   font-family: ${GeistSans.style.fontFamily};
