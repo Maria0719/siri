@@ -1,9 +1,11 @@
 {
-  "name": "my-v0-project",
+  "name": "siria-website",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "build": "next build",
+    "db:seed": "node -e \"require('./scripts/seed-db.js')\"",
+    "db:setup": "node -e \"require('./scripts/setup-db.js')\"",
     "dev": "next dev",
     "lint": "next lint",
     "start": "next start"
@@ -68,7 +70,10 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.9",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.7",
     "@types/node": "^22",
+    "@types/pg": "^8.11.10",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "postcss": "^8.5",
